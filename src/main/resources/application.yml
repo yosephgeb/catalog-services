@@ -6,3 +6,13 @@ server:
     threads:
       min-spare: 5
       max: 50
+
+spring:
+  application:
+    name: catalog-services
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: refresh
